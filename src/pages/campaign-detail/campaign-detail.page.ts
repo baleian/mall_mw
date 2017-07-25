@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ValuesService } from '../../services/values.service';
+import { ValuesService } from '../../services/index';
 
 @Component({
   selector: 'campaign-detail-page',

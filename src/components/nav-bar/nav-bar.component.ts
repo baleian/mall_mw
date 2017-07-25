@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Location } from '@angular/common';
 
-import { ValuesService } from '../../services/values.service';
+import { ValuesService } from '../../services/index';
 
 @Component({
   selector: 'nav-bar-component',
