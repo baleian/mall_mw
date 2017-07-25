@@ -1,0 +1,15 @@
+@import "../../components/my-point-bar/my-point-bar.component.scss";
+
+.my-point-bar {
+  width: 100%;
+  height: $my-point-bar-height;
+}
+
+.scroll-wrap {
+  position: absolute;
+  top: $my-point-bar-height;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}

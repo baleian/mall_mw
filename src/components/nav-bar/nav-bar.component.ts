@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { Location } from '@angular/common';
 
-import { ValuesService } from '../services/values.service';
+import { ValuesService } from '../../services/values.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'nav-bar-component',
+  templateUrl: './nav-bar.component.html',
+  styleUrls: ['./nav-bar.component.scss']
 })
-export class AppComponent {
+export class NavBarComponent {
 
   constructor(
     public values: ValuesService,

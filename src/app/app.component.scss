@@ -1,0 +1,15 @@
+@import "../components/nav-bar/nav-bar.component.scss";
+
+.nav-bar {
+  width: 100%;
+  height: $nav-bar-height;
+}
+
+.scroll-wrap {
+  position: absolute;
+  top: $nav-bar-height;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
